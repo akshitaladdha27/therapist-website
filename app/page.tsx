@@ -16,7 +16,7 @@ export default function PasswordPage() {
   }, [router]);
 
   const handleSubmit = () => {
-    if (password === "laliac") {
+    if (password === "lilac") {
       localStorage.setItem("site-unlocked", "true");
 
       router.replace("/home");
